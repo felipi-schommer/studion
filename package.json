@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/felipi-schommer/studion/issues"
   },
-  "homepage": "https://github.com/felipi-schommer/studion#readme"
+  "homepage": "https://github.com/felipi-schommer/studion#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
 }
