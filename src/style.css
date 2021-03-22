@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Roboto&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
 
 * {
     box-sizing: border-box;
 }
 
 :root {
-    font-family: 'montserrat', 'roboto', 'sans-serif';
+    font-family: 'montserrat', 'sans-serif';
     font-size: 16px;
     color: #333333;
     --color-primary: #ffc500;
-    --color-copy: #333333
+    --color-copy: #333333;
     --default-padding: 1rem;
 }
 
@@ -152,6 +153,7 @@ ul {
     font-size: 0.9375rem;
     text-transform: uppercase;
     transition: 0.3s all ease;
+    outline: none;
 }
 
 .btn:hover, .btn:active, .btn:focus {
@@ -300,4 +302,111 @@ ul {
     background-color: unset;
     color: var(--color-primary);
     box-shadow: 0 1rem 1rem #0006;
+}
+
+.footer{
+    background-color: #000;
+    color: #fff;
+    padding: 0 1rem;
+}
+
+.footer__container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+    padding: 5.25rem 0 3.75rem 0;
+}
+
+.footer .logo-studion{
+    justify-self: start;
+    margin: 0;
+}
+
+.logo-studion__subtitle{
+    display: block;
+}
+
+.footer__form{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 6.25rem auto;
+    gap: 1.25rem;
+}
+
+.footer__form label{
+    font-size: 0.875rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.footer__form fieldset{
+    display: grid;
+    grid-template-columns: auto 3.375rem;
+    border: unset;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.footer__form input{
+    background-color: var(--color-primary);
+    padding: 1rem;
+    font-size: 0.875rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #000;
+    border: unset;
+    height: 2.875rem;
+}
+
+.footer__form input::placeholder{
+    color: #000;
+}
+
+.footer__form input:focus{
+    outline: unset;
+}
+
+.footer__form button{
+    cursor: pointer;
+    border: unset;
+    height: 2.875rem;
+    transition: .2s all ease;
+}
+
+.footer__form button:hover{
+    color: #fff;
+    background-color: var(--color-copy);
+}
+
+.footer__social{
+    justify-self: end;
+}
+
+.footer__social a,
+.footer__social:visited
+.footer__social:active{
+    color: #fff;
+    margin-left: 0.3rem;
+}
+
+.footer__social a .fa-twitter,
+.footer__social:visited .fa-twitter
+.footer__social:active .fa-twitter{
+    color: #000;
+}
+
+.footer__social a .fa-facebook-f,
+.footer__social:visited .fa-facebook-f
+.footer__social:active .fa-facebook-f{
+    color: #000;
+}
+
+.footer hr{
+    background-color: #000;
+    border: 0.0625rem solid #434343;
+}
+
+.footer p{
+    text-align: center;
 }

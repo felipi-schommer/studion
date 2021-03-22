@@ -105,33 +105,53 @@
         </section>
     </main>
 
-    <footer>
-        <h2>Studi<span>on</span><span>Eventos</span></h2>
-        <form action="">
-            <label>Receba news e promoções</label>
-            <input type="email" placeholder="email" id=""/>
-            <button type="submit">Enviar</button>
-        </form>
-        <ul>
-            <li>
-                <a href="https://facebook.com/" target="_blank">
-                    Facebook
-                </a>
-            </li>
-            <li>
-                <a href="https://twitter.com/" target="_blank">
-                    Twitter
-                </a>
-            </li>
-            <li>
-                <a href="https://youtube.com/" target="_blank">
-                    YouTube
-                </a>
-            </li>
-        </ul>
+    <footer class="footer">
+        <div class="container footer__container">
+                <h2 class="logo-studion">
+                    Studi<span class="copy--primary">on</span>
+                    <span class="logo-studion__subtitle">Eventos</span>
+                </h2>
+            
+            <form class="footer__form" action="">
+                <label for="email">Receba news e promoções</label>
+                <fieldset>
+                    <input id="email" type="email" placeholder="email" id=""/>
+                    <button type="submit">
+                        <i class="fas fa-paper-plane fa-2x"></i>
+                    </button>
+                </fieldset>
+            </form>
+            <ul class="footer__social">
+                <li>
+                    
+                    <a  href="https://facebook.com/" target="_blank">
+                        <span class="fa-stack">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                            
+                        </span>
+                        
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/" target="_blank">
+                        <span class="fa-stack">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://youtube.com/" target="_blank">
+                        <i class="far fa-play-circle fa-2x"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
         <hr />
-        <p>
-            <small>Studi<span>ON</span> - Todos os direitos reservados.</small>
+        <p class="signature">
+            <small>Studi<span class="copy--primary">ON - </span> Todos os direitos reservados.</small>
         </p>
 
     </footer>
