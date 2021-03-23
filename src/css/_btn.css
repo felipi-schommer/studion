@@ -1,0 +1,53 @@
+.btn {
+    cursor: pointer;
+    width: 10.875rem;
+    height: 3.125rem;
+    color: var(--color-primary);
+    border-radius: 1.625rem;
+    border: 0.125rem solid #fff;
+    background: unset;
+    font-weight: 700;
+    font-size: 0.9375rem;
+    text-transform: uppercase;
+    transition: 0.3s all ease;
+    outline: none;
+}
+
+.btn:hover, .btn:active, .btn:focus {
+    border-color: var(--color-primary);
+    background-color: var(--color-primary);
+    color: #fff;   
+}
+
+.btn--institutional {
+    background-color: var(--color-primary);
+    color: #fff;
+    transition: 0.5s;
+    letter-spacing: .1rem;
+    border-color: #ffc500;
+}
+
+.btn--institutional:hover,
+.btn--institutional:active,
+.btn--institutional:focus {
+    background-color: unset;
+    color: var(--color-copy);
+    border-color: var(--color-copy);
+}
+
+.btn--institutional:hover{
+    color: var(--color-copy);
+    background: unset;
+    box-shadow: 0 1rem 1rem #0006;
+}
+
+.btn--quote{
+    color: var(--color-copy);
+    border-color: var(--color-copy);
+}
+
+.btn--quote:hover{
+    background-color: unset;
+    color: var(--color-primary);
+    box-shadow: 0 1rem 1rem #0006;
+}
