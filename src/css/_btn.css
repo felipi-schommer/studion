@@ -19,7 +19,8 @@
     color: #fff;   
 }
 
-.btn--institutional {
+.btn--institutional,
+.btn--contact {
     background-color: var(--color-primary);
     color: #fff;
     transition: 0.5s;
@@ -29,7 +30,8 @@
 
 .btn--institutional:hover,
 .btn--institutional:active,
-.btn--institutional:focus {
+.btn--institutional:focus,
+.btn--contact:hover  {
     background-color: unset;
     color: var(--color-copy);
     border-color: var(--color-copy);
@@ -39,6 +41,11 @@
     color: var(--color-copy);
     background: unset;
     box-shadow: 0 1rem 1rem #0006;
+}
+
+.btn--contact:hover {
+    color: #fff;
+    border-color: #fff;
 }
 
 .btn--quote{

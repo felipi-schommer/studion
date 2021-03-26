@@ -1,28 +1,33 @@
 .hero {
     position: relative;
     height: 34.625rem;
-
 }
 
 .hero__background {
     position: absolute;
     z-index: -1;
-    object-fit: contain;
+    object-fit: cover;
     object-position: center;
-  
+	width: 100%;
+    height: inherit;
 }
 
+.hero__container{
+	position: relative;
+	width: 100%;
+}
 
 .hero__copy{
     position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 50vw;
-    padding: 7rem 1.875rem;
+	width: 42.25rem;
+	top:0;
+	right:0;
+    padding: 12rem 1.875rem 0;
 }
 
 .hero__copy h2 {
     margin: 0;
+    margin-bottom: 4rem;
     font-size: 7.5rem;
     line-height: 7.5rem;
     letter-spacing: -.3125rem;
@@ -30,7 +35,7 @@
 }
 
 .hero__copy p {
-        font-size: .9375rem;
+    font-size: .9375rem;
     line-height: 1.875rem;
     color: var(--color-copy--alt);
 }

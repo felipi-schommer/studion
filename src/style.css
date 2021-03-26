@@ -1,32 +1,32 @@
 /*Importa a fonte utilizada*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Roboto&display=swap'); 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Roboto:wght@400;700&display=swap");
 
- /*Importa a família de icones itulizados*/
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+/*Importa a família de icones itulizados*/
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
 
-/*Importa o arquivo com as variáveis do css*/ 
-@import "./css/_variables.css"; 
+/*Importa o arquivo com as variáveis do css*/
+@import "./css/_variables.css";
 
 /*Importa o arquivo com a base do css*/
-@import "./css/_base.css"; 
+@import "./css/_base.css";
 
 /*Importa o arquivo com as utilidades do css*/
-@import "./css/_utils.css"; 
+@import "./css/_utils.css";
 
 /*Importa os paramêtros dos botoes do CSS */
-@import "./css/_btn.css"; 
+@import "./css/_btn.css";
 
 /*Importa o arquivo com o css da navbar*/
-@import "./css/_navbar.css"; 
+@import "./css/_navbar.css";
 
 /* Importa o arquivo com os paramêtros do Hero no css */
 
 @import "./css/_hero.css";
 
 /*Importa o arquivo com o css do footer*/
-@import "./css/_footer.css"; 
+@import "./css/_footer.css";
 
- /*Importa o arquivo com o css da página home*/
+/*Importa o arquivo com o css da página home*/
 @import "./css/_home.css";
 
 /*Importa o arquivo com o css da página contacts  */
