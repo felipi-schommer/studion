@@ -1,9 +1,36 @@
-#slider {
+.slider {
     background-color: #000;
     color: #fff;
 }
 
-#slider h6{
+.slider__next-arrow,
+.slider__prev-arrow{
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 5px solid var(--color-primary);
+    border-right: unset;
+    border-bottom: unset;
+    opacity: 0.5;
+}
+
+.slider__prev-arrow{
+    z-index: 1;
+    left: 1rem;
+    transform: rotate(-45deg);
+}
+
+.slider__next-arrow{
+    right: 1rem;
+    transform: rotate(135deg);
+}
+
+.slider__prev-arrow::before,
+.slider__next-arrow::before{
+    content: "";
+}
+
+
+.slider h6{
     margin: 0;
 }
 
