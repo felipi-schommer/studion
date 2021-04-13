@@ -29,5 +29,8 @@
 /*Importa o arquivo com o css da página home*/
 @import "./css/_home.css";
 
-/*Importa o arquivo com o css da página contacts  */
+/*Importa o arquivo com o css da página contacts*/
 @import "./css/_contacts.css";
+
+/* Importa o arquivo com o css da página events*/
+@import "./css/_events.css";

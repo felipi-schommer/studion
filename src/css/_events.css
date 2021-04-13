@@ -1,0 +1,89 @@
+.container.main{
+    margin-bottom: 3.420rem;
+}
+
+.main__content{
+   display: grid;
+   grid-template-columns: auto   1fr 1fr;
+   border-bottom: solid 1px var(--color-copy);
+}
+
+.main__content i{
+    color: var(--color-primary);
+    margin-right: .5rem;
+}
+
+.img__padding{
+    padding: 3.42rem;
+}
+
+.main h3{
+    color: var(--color-primary);
+    padding: 3.42rem 0 0 0 ;
+}
+
+.main span{
+    font-weight: 900;
+}
+
+.main__content .btn{
+    width: 13.175rem;
+    margin: 9.125rem 0 0 3.42rem;
+}
+
+.main__content .extend__copy{
+    grid-area: 2 / 2 / span 2 / span 3;
+}
+
+.main__content .extend__copy .colums{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.main__content .extend__copy .colums .btn{
+    margin: 1rem 0 0 3.42rem;
+    background: transparent;
+    border: none;
+    color: var(--color-primary);
+}
+
+.colums .btn:hover{
+    color: var(--color-copy) !important;
+    border: solid 2px var(--color-primary) !important;
+}
+
+.colums{
+    padding: 2.4rem 0;
+}
+
+.icon{
+    display: grid;
+    grid-template-columns: 1.5rem auto;
+    gap: .625rem;
+}
+
+.icon i{
+    font-size: 2rem;
+    color: var(--color-primary);
+    margin: 0.75rem 0.75rem 0 0;
+}
+
+.colums span{
+    margin-left: 2.1rem;
+}
+
+.fixed__size{
+    width: 412px;
+}
+.colums h3{
+    color: var(--color-copy);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 1rem 0 0 0;
+}
+
+.colums span{
+    font-weight: 400;
+}
+
