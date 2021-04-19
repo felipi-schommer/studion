@@ -25,6 +25,12 @@
     padding: 12rem 1.875rem 0;
 }
 
+.hero__copy span{
+    letter-spacing: .47rem;
+    text-transform: uppercase;
+    color: var(--color-primary);
+}
+
 .hero__copy h2 {
     margin: 0;
     margin-bottom: 4rem;
