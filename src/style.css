@@ -36,4 +36,8 @@
 @import "./css/_events.css";
 
 /* Importa o arquivo com o css da página enterprise */
-@import "./css/_enterprise.css"
+@import "./css/_enterprise.css";
+
+/* Importa o arquivo com o css da página gallery */
+
+@import "./css/_gallery.css";

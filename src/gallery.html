@@ -20,7 +20,7 @@
             </h1>
             <ul class="navbar__links">
                 <li>
-                    <a class="active" href="enterprise.html">
+                    <a href="enterprise.html">
                         Empresa
                     </a>
                 </li>
@@ -30,7 +30,8 @@
                     </a>
                 </li>
                 <li>
-                    <a href="gallery.html">
+                    <a class="active" href="gallery.html">
+                        <span class="select"></span>
                         Galeria
                     </a>
                 </li>
@@ -50,10 +51,10 @@
 
     <header>
         <div class="hero">
-            <img src="./images/enterprise.jpg" class="hero__background" alt="" />
+            <img src="./images/gallery.jpg" class="hero__background" alt="" />
             <div class="container hero__container">
                 <div class="hero__copy">
-                    <h2>.Empresa</h2>
+                    <h2>.galeria</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sit consequatur itaque beatae
                         inventore! Ab nemo quos impedit optio esse, autem perspiciatis dolore vel doloremque, earum vero
                         quibusdam cumque possimus?</p>
@@ -62,29 +63,34 @@
         </div>
     </header>
 
-    <main class="">
+    <main id="gallery">
+       <section class="container container_grid">
+
         
-        <section class=" container counter">
-            <div class="counter__copy">
-                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos similique ullam mollitia beatae officiis </p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. ullam mollitia beatae impedit nihil non ipsa officiis saepe pariatur maiores ipsa. Qui ex tenetur delectus repellendus quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut reprehenderit deserunt quas consectetur, vitae ratione impedit nihil non ipsam mollitia vero velit, modi temporibus corrupti asperiores eaque! Quo, odio cum.</p>
-                    </p>
+            <div class="column">
+                <img class="grid_img" src="./images/grid/grid_1.jpg" alt="">
+                <img class="grid_img" src="./images/grid/grid_5.png" alt="">
+                <img class="grid_img" src="./images/grid/grid_9.jpg" alt="">
+                
             </div>
-            <div class="counter__img">
-                <img src="./images/man.png" alt="">
+            <div class="column">
+                <img class="grid_img" src="./images/grid/grid_2.jpg" alt="">
+                <img class="grid_img" src="./images/grid/grid_6.jpg" alt="">
+                
+                
             </div>
-        </section>
-        <section class="logos">
-            <h4>Quem confia no nosso trabalho</h4>
-            <img src="./images/logos.png" alt="">
-        </section>
-        <section class="container counter__video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/5RDSkR8_AQ0" title="YouTube video player"
-            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        </section>
-        
+            <div class="column">
+                <img class="grid_img" src="./images/grid/grid_3.jpg" alt="">
+                <img class="grid_img" src="./images/grid/grid_7.jpg" alt="">
+                <img class="grid_img" src="./images/grid/grid_10.jpg" alt="">
+                
+            </div>
+            <div class="column">
+                <img class="grid_img" src="./images/grid/grid_4.jpg" alt="">
+                <img class="grid_img" src="./images/grid/grid_8.jpg" alt="">
+            </div>  
+        </div>
+       </section>
     </main>
 
     <footer class="footer">

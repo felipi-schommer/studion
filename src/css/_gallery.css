@@ -1,0 +1,29 @@
+.select{
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    margin: -2rem;
+    margin-left: 1.25rem;
+    border: solid 1px var(--color-primary);
+    border-bottom: unset;
+    border-right: unset;
+    transform: rotate(-135deg);
+}
+
+#gallery{
+    background-color: black;
+
+}
+.container_grid{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    padding: 9.68rem 0;
+
+}
+.column{
+    position: relative;
+}
+
+.column .grid_img{
+    padding: 1rem 0px;
+}

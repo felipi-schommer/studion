@@ -9,6 +9,7 @@ $(document).ready(() =>{
 
   $('.slider').slick(slickOptions);
 
+
   $('.footer_btn-submit').on('click', () =>{
     const email = $("#email").val();
     Email.send({
