@@ -41,3 +41,7 @@
 /* Importa o arquivo com o css da página gallery */
 
 @import "./css/_gallery.css";
+
+/* Importa o arquivo com o css da página testimonials */
+
+@import "./css/_testimonials.css"
