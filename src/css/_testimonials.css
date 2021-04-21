@@ -1,4 +1,10 @@
 
+.hero__copy-text h2{
+    font-size: 5.25rem;
+    font-weight: 700;
+    letter-spacing: -.1875rem;
+}
+
 .depo {
     background-color: var(--color-primary);
 }
@@ -11,20 +17,20 @@
     display: grid;
     align-items: center;
     justify-items: center;
-    height: 770px;
+    height: 48.125rem;
 }
 
 .slide__align {
     display: grid;
     align-items: center;
     justify-items: center;
-    padding-top: 32px;
+    padding-top: 2rem;
 }
 
 .depo .slide__text{
     font-family: 'Montserrat';
     text-align: center;
-    margin-top: 32px;
+    margin-top: 2rem;
     color: #000;
     max-width: 60ch;
 }
@@ -37,21 +43,21 @@
 }
 
 .depo .slide__text h2{
-    font-size: 50px;
+    font-size: 3.125rem;
     letter-spacing: -2;
     margin: 0;
 }
 
 .depo .slide__text span{
     display: block;
-    font-size: 14px;
+    font-size: .872rem;
     font-weight: 700;
     letter-spacing: 3px;
 }
 
 
 .depo .slide__text h1{
-    font-size: 84px;
+    font-size: 5.25rem;
     font-family: 700;
     margin: 0;
 }
@@ -91,15 +97,15 @@
 }
 
 .depo .slick-dots {
-    bottom: 56px;
+    bottom: 3.5rem;
 }
 
 .depo .slick-dots li{
-    margin: 0 10px;
+    margin: 0 .625rem;
 }
 
 .depo .slick-dots li button::before {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .slick-dotted.slick-slider {
