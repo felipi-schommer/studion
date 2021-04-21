@@ -71,7 +71,7 @@
     border: 5px solid #fff;
     border-right: unset;
     border-bottom: unset;
-    opacity: 0.5;
+    opacity: .75;
 }
 
 .depo .slider__prev-arrow{
