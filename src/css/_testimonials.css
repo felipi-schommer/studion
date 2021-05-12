@@ -9,18 +9,18 @@
     background-color: var(--color-primary);
 }
 
-.slider {
+.depo .slider {
     background-color: var(--color-primary);
 }
 
-.slide {
+.depo .slide {
     display: grid;
     align-items: center;
     justify-items: center;
-    height: 48.125rem;
+    height: unset;
 }
 
-.slide__align {
+.depo .slide__align {
     display: grid;
     align-items: center;
     justify-items: center;
@@ -58,7 +58,8 @@
 
 .depo .slide__text h1{
     font-size: 5.25rem;
-    font-family: 700;
+    font-family: 'montserrat';
+    font-weight: 700;
     margin: 0;
 }
 
@@ -97,7 +98,8 @@
 }
 
 .depo .slick-dots {
-    bottom: 3.5rem;
+    position: initial;
+    padding: 2.75rem 0 4.625rem 0;
 }
 
 .depo .slick-dots li{
