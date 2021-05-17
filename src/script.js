@@ -1,4 +1,19 @@
 $(document).ready(() =>{
+  // menu
+
+  $('.navbar__menu-btn').on('click', function(){
+    $('.navbar__links').toggleClass('active');
+    $(this).find('i').toggleClass("fa-bars");
+    $(this).find('i').toggleClass("fa-times");
+
+  });
+
+
+
+
+
+  
+  // carousel
     const slickOptions = {
         autoplay: true,
         autoplaySpeed: 1200,
@@ -8,6 +23,20 @@ $(document).ready(() =>{
     };
 
   $('.slider').slick(slickOptions);
+
+  const counterOptions = {
+    delay: 10,
+    time: 1000,
+  };
+
+  setInterval (() => {
+    const numbersCollection = document.querySelectorAll (".counter__number");
+
+    numbersCollection.forEach ((number) => {
+      const currentNumber = parseInt (number.innerHTML);
+      number.innerHTML = currentNumber + 1;
+    });
+  }, 1000);
 
 
   $('.footer_btn-submit').on('click', () =>{

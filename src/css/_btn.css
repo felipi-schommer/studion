@@ -19,6 +19,23 @@
     color: #fff;   
 }
 
+/* Versão Mobile */
+.btn--institutional,
+.btn--quote {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* Versão Desktop */
+@media screen and (min-width: 1280px) {
+    .btn--institutional {
+        display: unset;
+        margin: unset;
+    }
+
+}
+
 .btn--institutional,
 .btn--contact {
     background-color: var(--color-primary);
@@ -47,6 +64,7 @@
     color: #fff;
     border-color: #fff;
 }
+
 
 .btn--quote{
     color: var(--color-copy);
